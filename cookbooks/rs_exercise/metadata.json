@@ -1,0 +1,39 @@
+{
+  "platforms": {
+
+  },
+  "maintainer_email": "ops@example.com",
+  "conflicting": {
+
+  },
+  "attributes": {
+
+  },
+  "providing": {
+
+  },
+  "license": "Apache 2.0",
+  "replacing": {
+
+  },
+  "dependencies": {
+
+  },
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES: \n\n= USAGE:\n\n",
+  "version": "0.1.0",
+  "groupings": {
+
+  },
+  "description": "Installs/Configures rs_exercise",
+  "recipes": {
+
+  },
+  "recommendations": {
+
+  },
+  "name": "rs_exercise",
+  "maintainer": "Example Com",
+  "suggestions": {
+
+  }
+}
