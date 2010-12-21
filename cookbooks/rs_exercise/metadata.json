@@ -2,7 +2,7 @@
   "platforms": {
 
   },
-  "maintainer_email": "ops@example.com",
+  "maintainer_email": "dominic@geodelic.com",
   "conflicting": {
 
   },
@@ -12,7 +12,7 @@
   "providing": {
 
   },
-  "license": "Apache 2.0",
+  "license": "All rights reserved",
   "replacing": {
 
   },
@@ -26,13 +26,13 @@
   },
   "description": "Installs/Configures rs_exercise",
   "recipes": {
-
+    "rs_exercise::noise": "a hello world-esque recipe"
   },
   "recommendations": {
 
   },
   "name": "rs_exercise",
-  "maintainer": "Example Com",
+  "maintainer": "Dominic",
   "suggestions": {
 
   }
