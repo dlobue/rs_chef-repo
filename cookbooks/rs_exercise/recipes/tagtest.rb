@@ -16,7 +16,7 @@ ruby_block "pprinter" do
     block do
         require 'yaml'
         File.open( '/tmp/tagoutput.yaml', 'w') do |out|
-            YAML.dump( @node[:server_collection], out )
+            YAML.dump( @node["server_collection"], out )
         end
     end
 end
