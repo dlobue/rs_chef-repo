@@ -3,7 +3,7 @@
 log "getting all machine tags"
 
 server_collection "all" do
-    tags nil
+    tags 'rs_login:state=active'
 end
 
 log "got 'em: #{@node[:server_collection]}"
