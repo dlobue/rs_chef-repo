@@ -8,8 +8,8 @@ end
 
 #log "got 'em"
 #log "got 'em: #{@node.inspect}"
-log "got 'em: #{@node[:server_collection].inspect}"
-log "got 'em: #{@node['server_collection'].inspect}"
+log "got 'em: #{@node[:server_collection]['all'].inspect}"
+log "got 'em: #{@node['server_collection']['all'].inspect}"
 
 #log "now to see what we got"
 #ruby_block "pprinter" do
