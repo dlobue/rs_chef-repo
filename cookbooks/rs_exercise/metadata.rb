@@ -7,4 +7,5 @@ version          "0.1"
 
 
 recipe "rs_exercise::noise", "a hello world-esque recipe"
+recipe "rs_exercise::tagtest", "see what our tags look like"
 

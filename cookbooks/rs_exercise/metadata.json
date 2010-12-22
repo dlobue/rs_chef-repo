@@ -1,39 +1,31 @@
 {
-  "platforms": {
-
-  },
+  "name": "rs_exercise",
+  "description": "Installs/Configures rs_exercise",
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES: \n\n= USAGE:\n\n",
+  "maintainer": "Dominic",
   "maintainer_email": "dominic@geodelic.com",
-  "conflicting": {
-
-  },
-  "attributes": {
-
-  },
-  "providing": {
-
-  },
   "license": "All rights reserved",
-  "replacing": {
-
+  "platforms": {
   },
   "dependencies": {
-
-  },
-  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES: \n\n= USAGE:\n\n",
-  "version": "0.1.0",
-  "groupings": {
-
-  },
-  "description": "Installs/Configures rs_exercise",
-  "recipes": {
-    "rs_exercise::noise": "a hello world-esque recipe"
   },
   "recommendations": {
-
   },
-  "name": "rs_exercise",
-  "maintainer": "Dominic",
   "suggestions": {
-
-  }
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "rs_exercise::noise": "a hello world-esque recipe",
+    "rs_exercise::tagtest": "see what our tags look like"
+  },
+  "version": "0.1.0"
 }
