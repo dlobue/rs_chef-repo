@@ -26,7 +26,8 @@
   "recipes": {
     "rs_exercise::noise": "a hello world-esque recipe",
     "rs_exercise::tagtest": "see what our tags look like",
-    "rs_exercise::dnsupdate": "manually initiate a dns update"
+    "rs_exercise::dnsupdate": "manually initiate a dns update",
+    "rs_exercise::remotetest": "test remote recipe resource"
   },
   "version": "0.1.0"
 }

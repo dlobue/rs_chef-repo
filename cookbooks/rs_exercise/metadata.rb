@@ -9,4 +9,5 @@ version          "0.1"
 recipe "rs_exercise::noise", "a hello world-esque recipe"
 recipe "rs_exercise::tagtest", "see what our tags look like"
 recipe "rs_exercise::dnsupdate", "manually initiate a dns update"
+recipe "rs_exercise::remotetest", "test remote recipe resource"
 
