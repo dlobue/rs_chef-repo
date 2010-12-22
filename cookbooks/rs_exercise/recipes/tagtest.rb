@@ -16,8 +16,8 @@ ruby_block "pprinter" do
     action :create
     block do
         require 'pp'
-        File.open( '/tmp/tagoutput.pp', 'w') do |out|
-            pp( @node["server_collection"], out )
+        File.open( '/tmp/tagoutput.pp', 'w') do |o|
+            pp( @node[:server_collection]["all"], out=o )
         end
     end
 end
