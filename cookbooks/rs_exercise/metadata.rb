@@ -10,4 +10,5 @@ recipe "rs_exercise::noise", "a hello world-esque recipe"
 recipe "rs_exercise::tagtest", "see what our tags look like"
 recipe "rs_exercise::dnsupdate", "manually initiate a dns update"
 recipe "rs_exercise::remotetest", "test remote recipe resource"
+recipe "rs_exercise::rs_reliability", "make sure that the rs machine tag api is reliable"
 
