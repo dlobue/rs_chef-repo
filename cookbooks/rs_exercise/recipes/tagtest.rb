@@ -3,7 +3,7 @@
 log "getting all machine tags"
 
 server_collection "all" do
-    tags ["rs_monitoring:*"]
+    tags nil
 end
 
 log "got 'em: #{@node[:server_collection]['all']}"
