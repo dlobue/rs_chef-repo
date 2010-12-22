@@ -8,11 +8,11 @@ end
 
 log("got 'em"){ level :debug }
 
-#ruby_block "pprinter" do
-#    action :create
-#    block do
-#        require 'pp'
-#        pp @node[:server_collection]["all"]
-#    end
-#end
-#
+ruby_block "pprinter" do
+    action :create
+    block do
+        require 'pp'
+        pp @node[:server_collection]["all"]
+    end
+end
+
